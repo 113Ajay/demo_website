@@ -1,0 +1,204 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.bgimg{
+	background-image: url('image/l.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 600px;
+}
+nav
+{
+	width: 100vw;
+	height: 3.7rem;                                   /*#00ADEF*/
+}
+ul li a
+{
+	color: white;
+}
+nav ul li a
+{
+	text-decoration: none;	
+	color: #FFF;
+	font-size: 1.1rem;
+	padding: .8rem;
+	text-transform: uppercase;
+	transition: all 0.6s ease;
+}
+nav ul li a:hover
+{
+	background-color: #F2B71A;
+	color: red;
+	border: none;
+	outline: none;
+}
+.headerset
+{
+	padding-top: 270px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	text-transform: uppercase;
+}
+ul
+{
+	font-family: sans-serif;
+}
+
+/*.services
+{
+	margin-top: 60px;
+	margin-bottom: 80px;
+}
+.services p
+{
+	color: #6c757d!important;
+	padding: 10px;
+}*/
+.imgsetting
+{
+	border-radius: 50%;
+	width: 6.2rem;
+	height: 6.2rem;
+}
+
+.fa-shopping-cart
+{
+	margin-top: 1.3rem;
+}
+.fa-desktop
+{
+	margin-top: 1.4rem;
+}
+.fa-lock
+{
+	margin-top: .9rem;
+}
+
+/*---------------field setting--------*/
+
+/*.fields
+{
+	width: 100%;
+	height: 980px;
+	margin-top: -100px;
+}
+.fields h2,p
+{
+	margin-bottom: 40px;
+}*/
+.card
+{
+	width: 100%;
+	height: 25rem;
+}
+.sr
+{
+	margin-top: 2.5rem;
+}
+.ourteam
+{
+	width: 100%;
+	height: 35rem;
+	padding: 5rem 0rem 3rem;
+}
+.footer
+{
+	width: 100%;
+	height: 20rem;
+	margin-bottom: -5rem;
+}
+.common
+{
+	margin-top: 2rem;
+	font-size: 2rem;
+	width: 2.5rem;
+	border-radius: 30%;
+	cursor: pointer;
+}
+
+/*//////////Responsive using media query//////////*/
+
+/*@media(min-width: 992px)
+{
+
+}
+@media(min-width: 768px) and (max-width: 991px)
+{
+
+}
+@media(min-width: 575px) and (max-width: 767px)
+{
+
+}
+@media(min-width: 480px) and (max-width: 574px)
+{
+
+}*/
+@media(max-width: 768px)
+{
+	nav
+	{
+		width: 100%;
+	}
+	nav ul
+{
+	background-color: #000;
+	color: white;
+	border: none;
+	outline: none;
+}
+nav ul li a:hover
+{
+	color: white;
+}
+   .headerset
+   {
+   	  font-size: 22px;
+	  color: red;
+   }
+   .headerset
+   {
+   	  font-size: 12px;
+   }
+   .fields
+   {
+   	  height: 178rem;
+   }
+   .card
+   {
+   	height: 30rem;
+   }
+   .figure1
+   {
+   	margin-top: 2rem;
+   }
+   .figure2
+   {
+   	margin-top: 3rem;
+   }
+   .figure3
+   {
+   	margin-top: 3rem;
+   }
+   .common
+   {
+   	/*margin-top: -3rem;*/
+	font-size: 3rem;
+	width: 3rem;
+	border-radius: 45%;
+	cursor: pointer;
+   }
+   .txt
+   {
+   	margin-top: 25rem;
+   }
+   .footer
+   {
+   	margin-top: 90rem;
+   	height: 27rem;
+   }
+}	
